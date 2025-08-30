@@ -27,6 +27,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-quartz'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	//actuator exposes env
 	implementation 'org.apache.commons:commons-collections4:4.5.0'
 	//should be fine? I guess unless it breaks. This uses 3.2.3 so may have issues later? Need to check.
 	//uses OKHttp. what odes that imply? Its probably fine but..

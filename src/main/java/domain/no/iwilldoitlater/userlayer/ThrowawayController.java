@@ -55,4 +55,10 @@ public class ThrowawayController {
         putOffTask.setCompleted(true);
         putOffTaskRepository.save(putOffTask);
     }
+
+    @ResponseStatus(HttpStatus.OK)
+    @GetMapping("/ping")
+    public String ping() {
+        return "Its alive!";
+    }
 }
